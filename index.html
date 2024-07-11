@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAMOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <p>Скидка 10% по промокоду “ZAMOK” на все заказы до 10.09</p>
+
+            <p id="recall">Обратный звонок</p>
+        </div>
+
+        <div class="header">
+            <div class="logo">
+                <img src="./Logo.svg" alt="LOGO">
+            </div>
+
+            <div class="bar">
+                <nav>
+                    <a href="#">Главная</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Оптовая продажа</a>
+                    <a href="#">О нас</a>
+                    <a href="./cart.html">Корзина</a>
+                </nav>
+            </div>
+
+            <div class="item">
+                <p><img src="./phone-call 1.svg" alt="phone">+7 (966) 55 88 499</p>
+                <div class="cart">
+                    <a onclick="goToCart()" class="market" href="./cart.html"><i
+                            class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="word">
+            <p>Главная / <span>Каталог</span></p>
+        </div>
+
+        <div class="elektr">
+            <h1>Накладные электронные замки</h1>
+            <p>(854)</p>
+        </div>
+
+        <div class="filter">
+            <select id="felter" class="styled-select">
+                <option value="option1">Фильтр</option>
+                <option value="option2">3000₽ => 10000₽</option>
+                <option value="option3">10000₽ => 20000₽</option>
+                <option value="option3">20000₽ => 30000₽</option>
+                <option value="option3">30000₽ => 40000₽</option>
+                <option value="option3">40000₽ => 50000₽</option>
+            </select>
+
+            <button id="restart">Сбросить фильтры</button>
+
+            <select id="options" class="styled-select">
+                <option value="option1">Популярности</option>
+                <option value="option2">Известный</option>
+                <option value="option3">Средний</option>
+                <option value="option3">Не популярен</option>
+            </select>
+
+        </div>
+        <div id="products-container" class="product-grid"></div>
+
+        <h1>Вы недавно просмотрели</h1>
+        <div class="not_alot"></div>
+
+        <div class="black">
+            <div class="info">
+                <h1>Eget quis quam metus, scelerisque.</h1> <br><br>
+                <p>Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor <br> molestie massa porttitor.
+                    Quisque at turpis ut proin eu et magna etiam <br>rhoncus.</p>
+
+                <div class="box">
+                    <div class="check">
+                        <input type="checkbox"><span>Межкомнатую дверь</span>
+                        <input type="checkbox"><span>Межкомнатую дверь</span>
+                    </div>
+                    <div class="check2">
+                        <input type="checkbox"><span>Деревянную дверь</span>
+                        <input type="checkbox"><span>Деревянную дверь</span>
+
+                    </div>
+                </div>
+
+                <br><br><br><br><br>
+
+                <p id="ac">Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra <br> interdum in leo.
+                    Nullam ullamcorper id enim fermentum integer <br> praesent bibendum. In ullamcorper purus
+                    scelerisque malesuada et <br> egestas. Ac dictumst mauris sed facilisis.</p>
+            </div>
+
+            <div class="black_img">
+                <img src="./blak.svg" alt="black">
+            </div>
+        </div>
+
+        <div class="white">
+            <div class="white_img">
+                <img src="./white1.svg" alt="white">
+            </div>
+
+
+            <div class="info2">
+                <h1>Eget quis quam metus, scelerisque.</h1> <br><br>
+                <p>Odio felis sit leo, massa, mauris, at pulvinar ultrices. Eu porttitor <br> molestie massa porttitor.
+                    Quisque at turpis ut proin eu et magna etiam <br>rhoncus.</p>
+
+
+                <br><br><br><br><br>
+
+                <p id="ac">Ac risus neque pulvinar tincidunt est. Tristique imperdiet viverra <br> interdum in leo.
+                    Nullam ullamcorper id enim fermentum integer <br> praesent bibendum. In ullamcorper purus
+                    scelerisque malesuada et <br> egestas. Ac dictumst mauris sed facilisis.</p>
+            </div>
+
+        </div>
+
+
+        <div class="cal">
+            <h1>Мы Вам перезвоним</h1>
+            <p>Если у вас возникли какие-то вопросы или проблемы, заполните <br> форму и мы Вам перезвоним.</p>
+
+            <div class="inputss">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш Email">
+                <button>Отправить</button>
+            </div>
+        </div>
+
+        <div class="bottom">
+
+            <div class="bottom_links">
+                <div class="images">
+                    <img src="./Logo.svg" alt="logo"> <br><br><br><br>
+
+                    <div class="ins">
+                        <i class="fa-brands fa-vk"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <h3>Навигация</h3>
+                    <p>Главная</p>
+                    <p>Каталог</p>
+                    <p>Оптовая продажа</p>
+                    <p>О нас</p>
+                </div>
+
+                <div class="kontakt">
+                    <h3>Наши контакты</h3>
+                    <span>Телефоны</span>
+                    <p>+7 (988) 565 00 38</p>
+                    <p>+375 33 662 82 56</p>
+                    <span>Email</span>
+                    <p>vladpertcev@mail.ru</p>
+                    <p>korobko416@gmail.com</p>
+                </div>
+
+                <div class="adres">
+                    <h3>Наш адрес</h3>
+                    <p>Россия, <br>
+                        Ростов-на-Дону ул.
+                        <br> Богачева, 16
+                    </p>
+                </div>
+
+                <div class="inovation">
+                    <h3>информация</h3>
+                    <p>Доставка и оплата</p>
+                    <p>Гарантии</p>
+                    <p>Возврат товара</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="end">
+                <p>© 2021 Golden Soft All rights reserved.</p>
+            </div>
+
+        </div>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>

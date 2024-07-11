@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .top {
+    height: 44px;
+    background-color: #454F5B;
+    display: flex;
+  }
+  
+  .top p {
+    margin-left: 300px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  #recall {
+    margin-left: 400px;
+    text-decoration: underline;        
+  }
+  
+  .header {
+    display: flex;
+    height: 70px;
+    padding: 20px 80px;
+  }
+  
+  .bar {
+    margin-left: 50px;
+  }
+  
+  .bar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+  }
+  
+  .bar a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #000;
+    margin: 10px;
+  }
+  
+  .itemc {
+    margin-left: 580px;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .itemc p {
+    cursor: pointer;
+  }
+  
+  .cart-items {
+    margin-left: 80px;
+  }
+  
+  .item {
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    width: 500px;
+    display: flex;
+  }
+  
+  .item img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+  }
+  
+  .information {
+    display: flex;
+  }
+  
+  .info h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .info input {
+    width: 60px;
+    margin-bottom: 25px;
+  }
+  
+  .oform {
+    background-color: #4295E4;
+    border: 1px solid #4295E4;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #fff;
+  }
+  
+  .oform:hover {
+    background-color: #fff;
+    border: 1px solid #4295E4;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #000;
+  }
+  
+  .trash {
+    background-color: #fff;
+    border: 1px solid #4295E4;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #4295E4;
+    font-size: 12px;
+  }
+  
+  .trash:hover {
+    background-color: #4295E4;
+    border: 1px solid #4295E4;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #000;
+  }
